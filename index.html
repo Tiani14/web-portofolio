@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to Top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="">Web Profile</a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section id="home">
+          <div class="home-left">
+            <h3 class="pre-title">Hello all, I am</h3>
+            <h1 class="title">TIANI RISWANTI</h1>
+            <p style="color: #0c0c0c">
+              Student majoring in Information Systems. I like technology and
+              learning new things in it. For now, I am interested in web
+              development and UI UX design.
+            </p>
+            <br />
+            <a href="">
+              <button class="btn-resume">My Resume</button>
+            </a>
+          </div>
+          <div class="home-right">
+            <img src="img/tiani.png" alt="foto-saya" />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="main-container">
+        <h1 class="title-about">About</h1>
+        <p style="text-align: center">
+          Below are some of the tools that I have mastered in the world of
+          technology
+        </p>
+        <br />
+
+        <div class="grid-3">
+          <!-- About 1 -->
+          <div class="about">
+            <div class="about-icon">
+              <img src="img/uiux_design.png" alt="UI UX Design" />
+            </div>
+            <h3>UI UX Design</h3>
+            <p>
+              I master several tools such as Figma and Canva which are used to
+              create designs such as website UI designs and other designs.
+            </p>
+          </div>
+
+          <!-- About 2 -->
+          <div class="about">
+            <div class="about-icon">
+              <img src="img/web_dev.png" alt="Web Development" />
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              I can create a simple interface on a website and master several
+              tools such as HTML and CSS to create a user-friendly website
+              appearance
+            </p>
+          </div>
+
+          <!-- About 3 -->
+          <div class="about">
+            <div class="about-icon">
+              <img src="img/project_management.png" alt="Project Management" />
+            </div>
+            <h3>Project Management</h3>
+            <p>
+              My skills in project management are helping teams organize, track,
+              and execute work on projects to achieve specific goals
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About -->
+
+    <!-- Skills & Experience-->
+    <section id="skills">
+      <div class="main-container">
+        <h1 class="title-skills">Experience & Skills</h1>
+        <div class="skills-grid">
+          <div class="skills-left">
+            <!-- Experience 1 -->
+            <div class="experince">
+              <div class="line">
+                <div></div>
+              </div>
+
+              <div class="experience-info">
+                <h3 class="experince-title">
+                  Pusat Pendidikan dan Pelatihan KNPK
+                </h3>
+                <p>Sub. Bidang Penyelenggaraan</p>
+                <h4 class="experience-date">September - November 2023</h4>
+              </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experince">
+              <div class="line">
+                <div></div>
+              </div>
+
+              <div class="experience-info">
+                <h3 class="experince-title">
+                  Himpunan Mahasiswa Sistem Informasi UBSI PSDKU Kota Tegal
+                </h3>
+                <p>Wakil Ketua</p>
+                <h4 class="experience-date">Januari - Desember 2023</h4>
+              </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experince">
+              <div class="line">
+                <div></div>
+              </div>
+
+              <div class="experience-info">
+                <h3 class="experince-title">Kayla Jimshoney</h3>
+                <p>Admin Online</p>
+                <h4 class="experience-date">Januari - April 2022</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-right">
+            <p>
+              These are some of the soft skills, hard skills and experiences
+              that I have
+            </p>
+            <div class="skills-list">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>UI/UX Design</li>
+                <li>MySQL</li>
+              </ul>
+
+              <ul>
+                <li>Problems Solving</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+                <li>Flexibility</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="main-container">
+        <div style="text-align: center">
+          <h1 class="title-contact">Contact</h1>
+          <p>
+            Please fill out the form below to inquire about a collaboration, or
+            simply say hello. I’m also happy to refer you to someone else for a
+            specific project need! I love to connect people.
+          </p>
+        </div>
+
+        <br />
+        <form class="contact-form">
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              title="Input Your Name"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              title="Input Your Email"
+            />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              title="Input Your Message"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn-submit" title="Send Your Message">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/tyan_nii/" target="_blank">
+          <img
+            src="img/instagram.png"
+            alt="Instagram"
+            width="25px"
+            height="25px"
+            viewbox="0 0 25 25"
+          />
+        </a>
+        <a
+          href="https://id.linkedin.com/in/tiani-riswanti-265133278"
+          target="_blank"
+        >
+          <img
+            src="img/linkedin.png"
+            alt="Linkedin"
+            width="25px"
+            height="25px"
+            viewbox="0 0 25 25"
+          />
+        </a>
+        <a href="https://github.com/Tiani14" target="_blank">
+          <img
+            src="img/github.png"
+            alt="Github"
+            width="25px"
+            height="25px"
+            viewbox="0 0 25 25"
+          />
+        </a>
+      </div>
+
+      <p>&#169; 2024 All Right Reserved</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script>
+      let mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
